@@ -1,0 +1,5929 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>4a995e19f8584c86bd1fed5385f291df</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="codificación-de-las-variables-categoricas-escalado-y-modelo"
+class="cell markdown" id="z_UI0kq4LxkG">
+<h1><strong>Codificación de las variables categoricas, escalado y
+modelo</strong></h1>
+</section>
+<section id="importo-librerías" class="cell markdown" id="0FypGjPmL_C6">
+<h2><strong>Importo librerías</strong></h2>
+</section>
+<div class="cell code" data-execution_count="56" id="A6yINqvZ6_fy">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> category_encoders <span class="im">import</span> TargetEncoder</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="57" id="mYsNcb-g6qJU">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_rows&#39;</span>, <span class="dv">500</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_columns&#39;</span>, <span class="dv">500</span>)</span></code></pre></div>
+</div>
+<section
+id="lectura-de-datos-del-tratamiento-de-valores-missing-y-outliers"
+class="cell markdown" id="1RbGekA4MIk9">
+<h2><strong>Lectura de datos del tratamiento de valores missing y
+outliers</strong></h2>
+</section>
+<div class="cell code" data-execution_count="58" id="LuvJPkkm7H-A">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>credit_tratado_train <span class="op">=</span> pd.read_csv(<span class="st">&quot;credit_tratado_train.csv&quot;</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>credit_tratado_test <span class="op">=</span> pd.read_csv(<span class="st">&quot;credit_tratado_test.csv&quot;</span>)</span></code></pre></div>
+</div>
+<section
+id="borrar-la-celda-de-abajo-la-de-str-lower-una-vez-tengamos-los-datos-buenos"
+class="cell markdown" id="md9l1SEzDoDl">
+<h1><strong>Borrar la celda de abajo, la de str lower una vez tengamos
+los datos buenos</strong></h1>
+</section>
+<div class="cell code" data-execution_count="59" id="jlz7FrXHDkEG">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>credit_tratado_train.columns <span class="op">=</span> credit_tratado_train.columns.<span class="bu">str</span>.lower()</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>credit_tratado_test.columns <span class="op">=</span> credit_tratado_test.columns.<span class="bu">str</span>.lower()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="60" id="VkHvueRiDnKw">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> credit_tratado_train.drop(<span class="st">&#39;target&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> credit_tratado_train[<span class="st">&#39;target&#39;</span>]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> credit_tratado_test.drop(<span class="st">&#39;target&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> credit_tratado_test[<span class="st">&#39;target&#39;</span>]</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<section id="codificación-de-variables" class="cell markdown"
+id="Qq3e-1-MHd0w">
+<h3><strong>Codificación de Variables:</strong></h3>
+<p>Para codificar las variables categóricas, hemos utilizado tres
+enfoques distintos en función del tipo de variable y el número de
+valores únicos que contienen. A continuación, se explica cada uno de
+estos enfoques:</p>
+<ol>
+<li><p>Variables binarias (Sí/No): Para las variables categóricas con
+solo dos posibles valores, como "Y" y "N" (por ejemplo,
+<code>flag_own_car</code>, <code>flag_own_realty</code>), hemos
+realizado una codificación manual. En este caso, hemos asignado el valor
+1 a "Y" y el valor 0 a "N". De esta manera, las variables se transforman
+en valores numéricos binarios que son más fáciles de procesar por los
+modelos.</p></li>
+<li><p>Variables con pocas categorías (One-Hot Encoding): Para las
+variables que contienen un número limitado de categorías, como
+<code>name_contract_type</code> o <code>fondkapremont_mode</code>, hemos
+utilizado One-Hot Encoding. Este método crea nuevas columnas binarias
+para cada categoría única de la variable. Dado que estas variables
+tienen un número reducido de valores únicos, el uso de One-Hot Encoding
+no genera un exceso de columnas, lo que lo convierte en una opción
+eficiente.</p></li>
+<li><p>Variables con muchos valores únicos (Target Encoding): En el caso
+de las variables con un número mayor de valores únicos, como
+<code>occupation_type</code> o <code>name_housing_type</code>, hemos
+optado por Target Encoding. Este enfoque reemplaza cada categoría con la
+media del valor de la variable objetivo (<code>target</code>) para esa
+categoría. Al tratarse de variables con muchas categorías, Target
+Encoding resulta más adecuado, ya que evita la expansión excesiva del
+número de columnas en el conjunto de datos, lo que podría ocurrir con
+One-Hot Encoding.</p></li>
+</ol>
+</section>
+<div class="cell code" data-execution_count="61"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:617}"
+id="OmjVOkFBycw-" data-outputId="587cf7e3-3f18-46dc-e0f6-ee7d7d10a58b">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>credit_tratado_train</span></code></pre></div>
+<div class="output execute_result" data-execution_count="61">
+
+  <div id="df-18745bbd-6ea7-4c14-8514-b8f5a6918918" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sk_id_curr</th>
+      <th>name_contract_type</th>
+      <th>code_gender</th>
+      <th>flag_own_car</th>
+      <th>flag_own_realty</th>
+      <th>cnt_children</th>
+      <th>amt_income_total</th>
+      <th>amt_credit</th>
+      <th>amt_annuity</th>
+      <th>amt_goods_price</th>
+      <th>name_type_suite</th>
+      <th>name_income_type</th>
+      <th>name_education_type</th>
+      <th>name_family_status</th>
+      <th>name_housing_type</th>
+      <th>region_population_relative</th>
+      <th>days_birth</th>
+      <th>days_employed</th>
+      <th>days_registration</th>
+      <th>days_id_publish</th>
+      <th>own_car_age</th>
+      <th>flag_mobil</th>
+      <th>flag_emp_phone</th>
+      <th>flag_work_phone</th>
+      <th>flag_cont_mobile</th>
+      <th>flag_phone</th>
+      <th>flag_email</th>
+      <th>occupation_type</th>
+      <th>cnt_fam_members</th>
+      <th>region_rating_client</th>
+      <th>region_rating_client_w_city</th>
+      <th>weekday_appr_process_start</th>
+      <th>hour_appr_process_start</th>
+      <th>reg_region_not_live_region</th>
+      <th>reg_region_not_work_region</th>
+      <th>live_region_not_work_region</th>
+      <th>reg_city_not_live_city</th>
+      <th>reg_city_not_work_city</th>
+      <th>live_city_not_work_city</th>
+      <th>organization_type</th>
+      <th>ext_source_1</th>
+      <th>ext_source_2</th>
+      <th>ext_source_3</th>
+      <th>apartments_avg</th>
+      <th>basementarea_avg</th>
+      <th>years_beginexpluatation_avg</th>
+      <th>years_build_avg</th>
+      <th>commonarea_avg</th>
+      <th>elevators_avg</th>
+      <th>entrances_avg</th>
+      <th>floorsmax_avg</th>
+      <th>floorsmin_avg</th>
+      <th>landarea_avg</th>
+      <th>livingapartments_avg</th>
+      <th>livingarea_avg</th>
+      <th>nonlivingapartments_avg</th>
+      <th>nonlivingarea_avg</th>
+      <th>apartments_mode</th>
+      <th>basementarea_mode</th>
+      <th>years_beginexpluatation_mode</th>
+      <th>years_build_mode</th>
+      <th>commonarea_mode</th>
+      <th>elevators_mode</th>
+      <th>entrances_mode</th>
+      <th>floorsmax_mode</th>
+      <th>floorsmin_mode</th>
+      <th>landarea_mode</th>
+      <th>livingapartments_mode</th>
+      <th>livingarea_mode</th>
+      <th>nonlivingapartments_mode</th>
+      <th>nonlivingarea_mode</th>
+      <th>apartments_medi</th>
+      <th>basementarea_medi</th>
+      <th>years_beginexpluatation_medi</th>
+      <th>years_build_medi</th>
+      <th>commonarea_medi</th>
+      <th>elevators_medi</th>
+      <th>entrances_medi</th>
+      <th>floorsmax_medi</th>
+      <th>floorsmin_medi</th>
+      <th>landarea_medi</th>
+      <th>livingapartments_medi</th>
+      <th>livingarea_medi</th>
+      <th>nonlivingapartments_medi</th>
+      <th>nonlivingarea_medi</th>
+      <th>fondkapremont_mode</th>
+      <th>housetype_mode</th>
+      <th>totalarea_mode</th>
+      <th>wallsmaterial_mode</th>
+      <th>emergencystate_mode</th>
+      <th>obs_30_cnt_social_circle</th>
+      <th>def_30_cnt_social_circle</th>
+      <th>obs_60_cnt_social_circle</th>
+      <th>def_60_cnt_social_circle</th>
+      <th>days_last_phone_change</th>
+      <th>flag_document_2</th>
+      <th>flag_document_3</th>
+      <th>flag_document_4</th>
+      <th>flag_document_5</th>
+      <th>flag_document_6</th>
+      <th>flag_document_7</th>
+      <th>flag_document_8</th>
+      <th>flag_document_9</th>
+      <th>flag_document_10</th>
+      <th>flag_document_11</th>
+      <th>flag_document_12</th>
+      <th>flag_document_13</th>
+      <th>flag_document_14</th>
+      <th>flag_document_15</th>
+      <th>flag_document_16</th>
+      <th>flag_document_17</th>
+      <th>flag_document_18</th>
+      <th>flag_document_19</th>
+      <th>flag_document_20</th>
+      <th>flag_document_21</th>
+      <th>amt_req_credit_bureau_hour</th>
+      <th>amt_req_credit_bureau_day</th>
+      <th>amt_req_credit_bureau_week</th>
+      <th>amt_req_credit_bureau_mon</th>
+      <th>amt_req_credit_bureau_qrt</th>
+      <th>amt_req_credit_bureau_year</th>
+      <th>target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>102892.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>157500.0</td>
+      <td>834048.0</td>
+      <td>25285.5</td>
+      <td>720000.0</td>
+      <td>Unaccompanied</td>
+      <td>Pensioner</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.030755</td>
+      <td>-20814.0</td>
+      <td>365243.0</td>
+      <td>-11411.0</td>
+      <td>-4209.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No especificado</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>4</td>
+      <td>10.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>XNA</td>
+      <td>0.523025</td>
+      <td>0.062492</td>
+      <td>0.738020</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>9.0</td>
+      <td>1.0</td>
+      <td>9.0</td>
+      <td>1.0</td>
+      <td>-207.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>102115.0</td>
+      <td>Cash loans</td>
+      <td>M</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>247500.0</td>
+      <td>450000.0</td>
+      <td>42642.0</td>
+      <td>450000.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.010006</td>
+      <td>-15209.0</td>
+      <td>-7685.0</td>
+      <td>-7427.0</td>
+      <td>-159.0</td>
+      <td>6.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Laborers</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>14.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Other</td>
+      <td>0.523025</td>
+      <td>0.644818</td>
+      <td>0.695622</td>
+      <td>0.0773</td>
+      <td>0.0726</td>
+      <td>0.9901</td>
+      <td>0.8640</td>
+      <td>0.0291</td>
+      <td>0.00</td>
+      <td>0.1724</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0632</td>
+      <td>0.0630</td>
+      <td>0.0731</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0788</td>
+      <td>0.0753</td>
+      <td>0.9901</td>
+      <td>0.8693</td>
+      <td>0.0294</td>
+      <td>0.0000</td>
+      <td>0.1724</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0647</td>
+      <td>0.0689</td>
+      <td>0.07610</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0781</td>
+      <td>0.0726</td>
+      <td>0.9901</td>
+      <td>0.8658</td>
+      <td>0.0293</td>
+      <td>0.00</td>
+      <td>0.1724</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0643</td>
+      <td>0.0641</td>
+      <td>0.0744</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>reg oper account</td>
+      <td>block of flats</td>
+      <td>0.07340</td>
+      <td>Panel</td>
+      <td>No</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>104013.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>117000.0</td>
+      <td>320382.0</td>
+      <td>14242.5</td>
+      <td>229500.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.006008</td>
+      <td>-15771.0</td>
+      <td>-8861.0</td>
+      <td>-3644.0</td>
+      <td>-4463.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Medicine staff</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>11.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Medicine</td>
+      <td>0.727319</td>
+      <td>0.610348</td>
+      <td>0.472253</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-745.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>105066.0</td>
+      <td>Cash loans</td>
+      <td>M</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>112500.0</td>
+      <td>341280.0</td>
+      <td>27094.5</td>
+      <td>270000.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.007330</td>
+      <td>-11819.0</td>
+      <td>-1172.0</td>
+      <td>-3493.0</td>
+      <td>-3543.0</td>
+      <td>37.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Security staff</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Security</td>
+      <td>0.083639</td>
+      <td>0.386976</td>
+      <td>0.102782</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-243.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>6.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>104453.0</td>
+      <td>Revolving loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>1.0</td>
+      <td>157500.0</td>
+      <td>360000.0</td>
+      <td>18000.0</td>
+      <td>360000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.007330</td>
+      <td>-18426.0</td>
+      <td>-1978.0</td>
+      <td>-3892.0</td>
+      <td>-1931.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Realty agents</td>
+      <td>3.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>14.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.780810</td>
+      <td>0.707366</td>
+      <td>0.715103</td>
+      <td>0.0082</td>
+      <td>0.0000</td>
+      <td>0.9702</td>
+      <td>0.5920</td>
+      <td>0.0011</td>
+      <td>0.00</td>
+      <td>0.0345</td>
+      <td>0.0417</td>
+      <td>0.0833</td>
+      <td>0.0078</td>
+      <td>0.0067</td>
+      <td>0.0084</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0084</td>
+      <td>0.0000</td>
+      <td>0.9702</td>
+      <td>0.6080</td>
+      <td>0.0011</td>
+      <td>0.0000</td>
+      <td>0.0345</td>
+      <td>0.0417</td>
+      <td>0.0833</td>
+      <td>0.0080</td>
+      <td>0.0073</td>
+      <td>0.00870</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0083</td>
+      <td>0.0000</td>
+      <td>0.9702</td>
+      <td>0.5975</td>
+      <td>0.0011</td>
+      <td>0.00</td>
+      <td>0.0345</td>
+      <td>0.0417</td>
+      <td>0.0833</td>
+      <td>0.0080</td>
+      <td>0.0068</td>
+      <td>0.0085</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>not specified</td>
+      <td>block of flats</td>
+      <td>0.00720</td>
+      <td>Others</td>
+      <td>Yes</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2476.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>3.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>4626</th>
+      <td>106414.0</td>
+      <td>Cash loans</td>
+      <td>M</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>225000.0</td>
+      <td>269550.0</td>
+      <td>20988.0</td>
+      <td>225000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Single / not married</td>
+      <td>House / apartment</td>
+      <td>0.020246</td>
+      <td>-13473.0</td>
+      <td>-5803.0</td>
+      <td>-10335.0</td>
+      <td>-241.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Laborers</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>4</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Housing</td>
+      <td>0.523025</td>
+      <td>0.370533</td>
+      <td>0.410103</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-1728.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4627</th>
+      <td>101742.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>81000.0</td>
+      <td>621000.0</td>
+      <td>28773.0</td>
+      <td>621000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.028663</td>
+      <td>-18857.0</td>
+      <td>-723.0</td>
+      <td>-7913.0</td>
+      <td>-2393.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No especificado</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.523025</td>
+      <td>0.533545</td>
+      <td>0.329655</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-145.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4628</th>
+      <td>103706.0</td>
+      <td>Revolving loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>2.0</td>
+      <td>135000.0</td>
+      <td>405000.0</td>
+      <td>20250.0</td>
+      <td>405000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.032561</td>
+      <td>-14510.0</td>
+      <td>-1471.0</td>
+      <td>-757.0</td>
+      <td>-841.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Sales staff</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td>17.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.525500</td>
+      <td>0.708790</td>
+      <td>0.538863</td>
+      <td>0.1381</td>
+      <td>0.0240</td>
+      <td>0.9434</td>
+      <td>0.2248</td>
+      <td>0.0232</td>
+      <td>0.12</td>
+      <td>0.1724</td>
+      <td>0.2083</td>
+      <td>0.2500</td>
+      <td>0.0324</td>
+      <td>0.1126</td>
+      <td>0.1555</td>
+      <td>0.0000</td>
+      <td>0.0424</td>
+      <td>0.1408</td>
+      <td>0.0249</td>
+      <td>0.9434</td>
+      <td>0.2552</td>
+      <td>0.0234</td>
+      <td>0.1208</td>
+      <td>0.1724</td>
+      <td>0.2083</td>
+      <td>0.2500</td>
+      <td>0.0331</td>
+      <td>0.1230</td>
+      <td>0.16200</td>
+      <td>0.0000</td>
+      <td>0.0449</td>
+      <td>0.1395</td>
+      <td>0.0240</td>
+      <td>0.9434</td>
+      <td>0.2352</td>
+      <td>0.0234</td>
+      <td>0.12</td>
+      <td>0.1724</td>
+      <td>0.2083</td>
+      <td>0.2500</td>
+      <td>0.0329</td>
+      <td>0.1146</td>
+      <td>0.1583</td>
+      <td>0.0000</td>
+      <td>0.0433</td>
+      <td>reg oper account</td>
+      <td>block of flats</td>
+      <td>0.14420</td>
+      <td>Stone, brick</td>
+      <td>No</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>-991.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4629</th>
+      <td>102447.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>2.0</td>
+      <td>90000.0</td>
+      <td>609183.0</td>
+      <td>23733.0</td>
+      <td>508500.0</td>
+      <td>Spouse, partner</td>
+      <td>Commercial associate</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.035792</td>
+      <td>-12086.0</td>
+      <td>-678.0</td>
+      <td>-3962.0</td>
+      <td>-3962.0</td>
+      <td>13.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Sales staff</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+      <td>11.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Self-employed</td>
+      <td>0.749454</td>
+      <td>0.725078</td>
+      <td>0.538863</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4630</th>
+      <td>103016.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>157500.0</td>
+      <td>521280.0</td>
+      <td>26743.5</td>
+      <td>450000.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Higher education</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.007305</td>
+      <td>-10292.0</td>
+      <td>-1596.0</td>
+      <td>-5139.0</td>
+      <td>-584.0</td>
+      <td>26.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Sales staff</td>
+      <td>2.0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>5</td>
+      <td>9.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.272706</td>
+      <td>0.514288</td>
+      <td>0.241861</td>
+      <td>0.2227</td>
+      <td>0.1133</td>
+      <td>0.9816</td>
+      <td>0.7484</td>
+      <td>0.0894</td>
+      <td>0.24</td>
+      <td>0.2069</td>
+      <td>0.3333</td>
+      <td>0.3750</td>
+      <td>0.0919</td>
+      <td>0.1807</td>
+      <td>0.2407</td>
+      <td>0.0039</td>
+      <td>0.2313</td>
+      <td>0.2269</td>
+      <td>0.1175</td>
+      <td>0.9816</td>
+      <td>0.7583</td>
+      <td>0.0903</td>
+      <td>0.2417</td>
+      <td>0.2069</td>
+      <td>0.3333</td>
+      <td>0.3750</td>
+      <td>0.0940</td>
+      <td>0.1974</td>
+      <td>0.25080</td>
+      <td>0.0039</td>
+      <td>0.2449</td>
+      <td>0.2248</td>
+      <td>0.1133</td>
+      <td>0.9816</td>
+      <td>0.7518</td>
+      <td>0.0900</td>
+      <td>0.24</td>
+      <td>0.2069</td>
+      <td>0.3333</td>
+      <td>0.3750</td>
+      <td>0.0935</td>
+      <td>0.1838</td>
+      <td>0.2451</td>
+      <td>0.0039</td>
+      <td>0.2362</td>
+      <td>reg oper spec account</td>
+      <td>block of flats</td>
+      <td>0.23960</td>
+      <td>Panel</td>
+      <td>No</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>-710.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>4631 rows × 122 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-18745bbd-6ea7-4c14-8514-b8f5a6918918')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-18745bbd-6ea7-4c14-8514-b8f5a6918918 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-18745bbd-6ea7-4c14-8514-b8f5a6918918');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-dd510d41-3019-4958-9b26-d5d5a4bd1652">
+  <button class="colab-df-quickchart" onclick="quickchart('df-dd510d41-3019-4958-9b26-d5d5a4bd1652')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-dd510d41-3019-4958-9b26-d5d5a4bd1652 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_de5c480e-986d-45d1-a509-6f36022039f9">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('credit_tratado_train')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_de5c480e-986d-45d1-a509-6f36022039f9 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('credit_tratado_train');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="62"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:617}"
+id="dma37Mug4e7D" data-outputId="3b45d4f6-c162-4849-dc97-9fc989a49035">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>X_train</span></code></pre></div>
+<div class="output execute_result" data-execution_count="62">
+
+  <div id="df-b0c8b32f-4a3a-4750-8396-4bebc8023a52" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sk_id_curr</th>
+      <th>name_contract_type</th>
+      <th>code_gender</th>
+      <th>flag_own_car</th>
+      <th>flag_own_realty</th>
+      <th>cnt_children</th>
+      <th>amt_income_total</th>
+      <th>amt_credit</th>
+      <th>amt_annuity</th>
+      <th>amt_goods_price</th>
+      <th>name_type_suite</th>
+      <th>name_income_type</th>
+      <th>name_education_type</th>
+      <th>name_family_status</th>
+      <th>name_housing_type</th>
+      <th>region_population_relative</th>
+      <th>days_birth</th>
+      <th>days_employed</th>
+      <th>days_registration</th>
+      <th>days_id_publish</th>
+      <th>own_car_age</th>
+      <th>flag_mobil</th>
+      <th>flag_emp_phone</th>
+      <th>flag_work_phone</th>
+      <th>flag_cont_mobile</th>
+      <th>flag_phone</th>
+      <th>flag_email</th>
+      <th>occupation_type</th>
+      <th>cnt_fam_members</th>
+      <th>region_rating_client</th>
+      <th>region_rating_client_w_city</th>
+      <th>weekday_appr_process_start</th>
+      <th>hour_appr_process_start</th>
+      <th>reg_region_not_live_region</th>
+      <th>reg_region_not_work_region</th>
+      <th>live_region_not_work_region</th>
+      <th>reg_city_not_live_city</th>
+      <th>reg_city_not_work_city</th>
+      <th>live_city_not_work_city</th>
+      <th>organization_type</th>
+      <th>ext_source_1</th>
+      <th>ext_source_2</th>
+      <th>ext_source_3</th>
+      <th>apartments_avg</th>
+      <th>basementarea_avg</th>
+      <th>years_beginexpluatation_avg</th>
+      <th>years_build_avg</th>
+      <th>commonarea_avg</th>
+      <th>elevators_avg</th>
+      <th>entrances_avg</th>
+      <th>floorsmax_avg</th>
+      <th>floorsmin_avg</th>
+      <th>landarea_avg</th>
+      <th>livingapartments_avg</th>
+      <th>livingarea_avg</th>
+      <th>nonlivingapartments_avg</th>
+      <th>nonlivingarea_avg</th>
+      <th>apartments_mode</th>
+      <th>basementarea_mode</th>
+      <th>years_beginexpluatation_mode</th>
+      <th>years_build_mode</th>
+      <th>commonarea_mode</th>
+      <th>elevators_mode</th>
+      <th>entrances_mode</th>
+      <th>floorsmax_mode</th>
+      <th>floorsmin_mode</th>
+      <th>landarea_mode</th>
+      <th>livingapartments_mode</th>
+      <th>livingarea_mode</th>
+      <th>nonlivingapartments_mode</th>
+      <th>nonlivingarea_mode</th>
+      <th>apartments_medi</th>
+      <th>basementarea_medi</th>
+      <th>years_beginexpluatation_medi</th>
+      <th>years_build_medi</th>
+      <th>commonarea_medi</th>
+      <th>elevators_medi</th>
+      <th>entrances_medi</th>
+      <th>floorsmax_medi</th>
+      <th>floorsmin_medi</th>
+      <th>landarea_medi</th>
+      <th>livingapartments_medi</th>
+      <th>livingarea_medi</th>
+      <th>nonlivingapartments_medi</th>
+      <th>nonlivingarea_medi</th>
+      <th>fondkapremont_mode</th>
+      <th>housetype_mode</th>
+      <th>totalarea_mode</th>
+      <th>wallsmaterial_mode</th>
+      <th>emergencystate_mode</th>
+      <th>obs_30_cnt_social_circle</th>
+      <th>def_30_cnt_social_circle</th>
+      <th>obs_60_cnt_social_circle</th>
+      <th>def_60_cnt_social_circle</th>
+      <th>days_last_phone_change</th>
+      <th>flag_document_2</th>
+      <th>flag_document_3</th>
+      <th>flag_document_4</th>
+      <th>flag_document_5</th>
+      <th>flag_document_6</th>
+      <th>flag_document_7</th>
+      <th>flag_document_8</th>
+      <th>flag_document_9</th>
+      <th>flag_document_10</th>
+      <th>flag_document_11</th>
+      <th>flag_document_12</th>
+      <th>flag_document_13</th>
+      <th>flag_document_14</th>
+      <th>flag_document_15</th>
+      <th>flag_document_16</th>
+      <th>flag_document_17</th>
+      <th>flag_document_18</th>
+      <th>flag_document_19</th>
+      <th>flag_document_20</th>
+      <th>flag_document_21</th>
+      <th>amt_req_credit_bureau_hour</th>
+      <th>amt_req_credit_bureau_day</th>
+      <th>amt_req_credit_bureau_week</th>
+      <th>amt_req_credit_bureau_mon</th>
+      <th>amt_req_credit_bureau_qrt</th>
+      <th>amt_req_credit_bureau_year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>102892.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>157500.0</td>
+      <td>834048.0</td>
+      <td>25285.5</td>
+      <td>720000.0</td>
+      <td>Unaccompanied</td>
+      <td>Pensioner</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.030755</td>
+      <td>-20814.0</td>
+      <td>365243.0</td>
+      <td>-11411.0</td>
+      <td>-4209.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No especificado</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>4</td>
+      <td>10.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>XNA</td>
+      <td>0.523025</td>
+      <td>0.062492</td>
+      <td>0.738020</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>9.0</td>
+      <td>1.0</td>
+      <td>9.0</td>
+      <td>1.0</td>
+      <td>-207.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>102115.0</td>
+      <td>Cash loans</td>
+      <td>M</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>247500.0</td>
+      <td>450000.0</td>
+      <td>42642.0</td>
+      <td>450000.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.010006</td>
+      <td>-15209.0</td>
+      <td>-7685.0</td>
+      <td>-7427.0</td>
+      <td>-159.0</td>
+      <td>6.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Laborers</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>14.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Other</td>
+      <td>0.523025</td>
+      <td>0.644818</td>
+      <td>0.695622</td>
+      <td>0.0773</td>
+      <td>0.0726</td>
+      <td>0.9901</td>
+      <td>0.8640</td>
+      <td>0.0291</td>
+      <td>0.00</td>
+      <td>0.1724</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0632</td>
+      <td>0.0630</td>
+      <td>0.0731</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0788</td>
+      <td>0.0753</td>
+      <td>0.9901</td>
+      <td>0.8693</td>
+      <td>0.0294</td>
+      <td>0.0000</td>
+      <td>0.1724</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0647</td>
+      <td>0.0689</td>
+      <td>0.07610</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0781</td>
+      <td>0.0726</td>
+      <td>0.9901</td>
+      <td>0.8658</td>
+      <td>0.0293</td>
+      <td>0.00</td>
+      <td>0.1724</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0643</td>
+      <td>0.0641</td>
+      <td>0.0744</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>reg oper account</td>
+      <td>block of flats</td>
+      <td>0.07340</td>
+      <td>Panel</td>
+      <td>No</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>104013.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>117000.0</td>
+      <td>320382.0</td>
+      <td>14242.5</td>
+      <td>229500.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.006008</td>
+      <td>-15771.0</td>
+      <td>-8861.0</td>
+      <td>-3644.0</td>
+      <td>-4463.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Medicine staff</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>11.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Medicine</td>
+      <td>0.727319</td>
+      <td>0.610348</td>
+      <td>0.472253</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-745.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>105066.0</td>
+      <td>Cash loans</td>
+      <td>M</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>112500.0</td>
+      <td>341280.0</td>
+      <td>27094.5</td>
+      <td>270000.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.007330</td>
+      <td>-11819.0</td>
+      <td>-1172.0</td>
+      <td>-3493.0</td>
+      <td>-3543.0</td>
+      <td>37.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Security staff</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Security</td>
+      <td>0.083639</td>
+      <td>0.386976</td>
+      <td>0.102782</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-243.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>104453.0</td>
+      <td>Revolving loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>1.0</td>
+      <td>157500.0</td>
+      <td>360000.0</td>
+      <td>18000.0</td>
+      <td>360000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.007330</td>
+      <td>-18426.0</td>
+      <td>-1978.0</td>
+      <td>-3892.0</td>
+      <td>-1931.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Realty agents</td>
+      <td>3.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>14.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.780810</td>
+      <td>0.707366</td>
+      <td>0.715103</td>
+      <td>0.0082</td>
+      <td>0.0000</td>
+      <td>0.9702</td>
+      <td>0.5920</td>
+      <td>0.0011</td>
+      <td>0.00</td>
+      <td>0.0345</td>
+      <td>0.0417</td>
+      <td>0.0833</td>
+      <td>0.0078</td>
+      <td>0.0067</td>
+      <td>0.0084</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0084</td>
+      <td>0.0000</td>
+      <td>0.9702</td>
+      <td>0.6080</td>
+      <td>0.0011</td>
+      <td>0.0000</td>
+      <td>0.0345</td>
+      <td>0.0417</td>
+      <td>0.0833</td>
+      <td>0.0080</td>
+      <td>0.0073</td>
+      <td>0.00870</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0083</td>
+      <td>0.0000</td>
+      <td>0.9702</td>
+      <td>0.5975</td>
+      <td>0.0011</td>
+      <td>0.00</td>
+      <td>0.0345</td>
+      <td>0.0417</td>
+      <td>0.0833</td>
+      <td>0.0080</td>
+      <td>0.0068</td>
+      <td>0.0085</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>not specified</td>
+      <td>block of flats</td>
+      <td>0.00720</td>
+      <td>Others</td>
+      <td>Yes</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2476.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>4626</th>
+      <td>106414.0</td>
+      <td>Cash loans</td>
+      <td>M</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>225000.0</td>
+      <td>269550.0</td>
+      <td>20988.0</td>
+      <td>225000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Single / not married</td>
+      <td>House / apartment</td>
+      <td>0.020246</td>
+      <td>-13473.0</td>
+      <td>-5803.0</td>
+      <td>-10335.0</td>
+      <td>-241.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Laborers</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>4</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Housing</td>
+      <td>0.523025</td>
+      <td>0.370533</td>
+      <td>0.410103</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-1728.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>4627</th>
+      <td>101742.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>81000.0</td>
+      <td>621000.0</td>
+      <td>28773.0</td>
+      <td>621000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.028663</td>
+      <td>-18857.0</td>
+      <td>-723.0</td>
+      <td>-7913.0</td>
+      <td>-2393.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No especificado</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>13.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.523025</td>
+      <td>0.533545</td>
+      <td>0.329655</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-145.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>4628</th>
+      <td>103706.0</td>
+      <td>Revolving loans</td>
+      <td>F</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>2.0</td>
+      <td>135000.0</td>
+      <td>405000.0</td>
+      <td>20250.0</td>
+      <td>405000.0</td>
+      <td>Family</td>
+      <td>Working</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.032561</td>
+      <td>-14510.0</td>
+      <td>-1471.0</td>
+      <td>-757.0</td>
+      <td>-841.0</td>
+      <td>9.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Sales staff</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td>17.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.525500</td>
+      <td>0.708790</td>
+      <td>0.538863</td>
+      <td>0.1381</td>
+      <td>0.0240</td>
+      <td>0.9434</td>
+      <td>0.2248</td>
+      <td>0.0232</td>
+      <td>0.12</td>
+      <td>0.1724</td>
+      <td>0.2083</td>
+      <td>0.2500</td>
+      <td>0.0324</td>
+      <td>0.1126</td>
+      <td>0.1555</td>
+      <td>0.0000</td>
+      <td>0.0424</td>
+      <td>0.1408</td>
+      <td>0.0249</td>
+      <td>0.9434</td>
+      <td>0.2552</td>
+      <td>0.0234</td>
+      <td>0.1208</td>
+      <td>0.1724</td>
+      <td>0.2083</td>
+      <td>0.2500</td>
+      <td>0.0331</td>
+      <td>0.1230</td>
+      <td>0.16200</td>
+      <td>0.0000</td>
+      <td>0.0449</td>
+      <td>0.1395</td>
+      <td>0.0240</td>
+      <td>0.9434</td>
+      <td>0.2352</td>
+      <td>0.0234</td>
+      <td>0.12</td>
+      <td>0.1724</td>
+      <td>0.2083</td>
+      <td>0.2500</td>
+      <td>0.0329</td>
+      <td>0.1146</td>
+      <td>0.1583</td>
+      <td>0.0000</td>
+      <td>0.0433</td>
+      <td>reg oper account</td>
+      <td>block of flats</td>
+      <td>0.14420</td>
+      <td>Stone, brick</td>
+      <td>No</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>-991.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4629</th>
+      <td>102447.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>2.0</td>
+      <td>90000.0</td>
+      <td>609183.0</td>
+      <td>23733.0</td>
+      <td>508500.0</td>
+      <td>Spouse, partner</td>
+      <td>Commercial associate</td>
+      <td>Secondary / secondary special</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.035792</td>
+      <td>-12086.0</td>
+      <td>-678.0</td>
+      <td>-3962.0</td>
+      <td>-3962.0</td>
+      <td>13.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Sales staff</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+      <td>11.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Self-employed</td>
+      <td>0.749454</td>
+      <td>0.725078</td>
+      <td>0.538863</td>
+      <td>0.0856</td>
+      <td>0.0752</td>
+      <td>0.9821</td>
+      <td>0.7552</td>
+      <td>0.0187</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0479</td>
+      <td>0.0740</td>
+      <td>0.0743</td>
+      <td>0.0000</td>
+      <td>0.0037</td>
+      <td>0.0840</td>
+      <td>0.0732</td>
+      <td>0.9816</td>
+      <td>0.7648</td>
+      <td>0.0168</td>
+      <td>0.0000</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0448</td>
+      <td>0.0744</td>
+      <td>0.07255</td>
+      <td>0.0000</td>
+      <td>0.0014</td>
+      <td>0.0854</td>
+      <td>0.0749</td>
+      <td>0.9821</td>
+      <td>0.7585</td>
+      <td>0.0185</td>
+      <td>0.00</td>
+      <td>0.1379</td>
+      <td>0.1667</td>
+      <td>0.2083</td>
+      <td>0.0486</td>
+      <td>0.0752</td>
+      <td>0.0745</td>
+      <td>0.0000</td>
+      <td>0.0033</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.06745</td>
+      <td>No especificado</td>
+      <td>No especificado</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4630</th>
+      <td>103016.0</td>
+      <td>Cash loans</td>
+      <td>F</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>0.0</td>
+      <td>157500.0</td>
+      <td>521280.0</td>
+      <td>26743.5</td>
+      <td>450000.0</td>
+      <td>Unaccompanied</td>
+      <td>Working</td>
+      <td>Higher education</td>
+      <td>Married</td>
+      <td>House / apartment</td>
+      <td>0.007305</td>
+      <td>-10292.0</td>
+      <td>-1596.0</td>
+      <td>-5139.0</td>
+      <td>-584.0</td>
+      <td>26.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Sales staff</td>
+      <td>2.0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>5</td>
+      <td>9.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Business Entity Type 3</td>
+      <td>0.272706</td>
+      <td>0.514288</td>
+      <td>0.241861</td>
+      <td>0.2227</td>
+      <td>0.1133</td>
+      <td>0.9816</td>
+      <td>0.7484</td>
+      <td>0.0894</td>
+      <td>0.24</td>
+      <td>0.2069</td>
+      <td>0.3333</td>
+      <td>0.3750</td>
+      <td>0.0919</td>
+      <td>0.1807</td>
+      <td>0.2407</td>
+      <td>0.0039</td>
+      <td>0.2313</td>
+      <td>0.2269</td>
+      <td>0.1175</td>
+      <td>0.9816</td>
+      <td>0.7583</td>
+      <td>0.0903</td>
+      <td>0.2417</td>
+      <td>0.2069</td>
+      <td>0.3333</td>
+      <td>0.3750</td>
+      <td>0.0940</td>
+      <td>0.1974</td>
+      <td>0.25080</td>
+      <td>0.0039</td>
+      <td>0.2449</td>
+      <td>0.2248</td>
+      <td>0.1133</td>
+      <td>0.9816</td>
+      <td>0.7518</td>
+      <td>0.0900</td>
+      <td>0.24</td>
+      <td>0.2069</td>
+      <td>0.3333</td>
+      <td>0.3750</td>
+      <td>0.0935</td>
+      <td>0.1838</td>
+      <td>0.2451</td>
+      <td>0.0039</td>
+      <td>0.2362</td>
+      <td>reg oper spec account</td>
+      <td>block of flats</td>
+      <td>0.23960</td>
+      <td>Panel</td>
+      <td>No</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>-710.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>4631 rows × 121 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-b0c8b32f-4a3a-4750-8396-4bebc8023a52')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-b0c8b32f-4a3a-4750-8396-4bebc8023a52 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-b0c8b32f-4a3a-4750-8396-4bebc8023a52');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-e631e255-6440-4ebb-aa65-cb2a100db746">
+  <button class="colab-df-quickchart" onclick="quickchart('df-e631e255-6440-4ebb-aa65-cb2a100db746')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-e631e255-6440-4ebb-aa65-cb2a100db746 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_574452ff-126a-4bd6-8faf-f9803e7e049b">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('X_train')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_574452ff-126a-4bd6-8faf-f9803e7e049b button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('X_train');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="63" id="FM6NtV4dFGAV">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Codifciacion X_train</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>X_train[<span class="st">&#39;flag_own_car&#39;</span>] <span class="op">=</span> X_train[<span class="st">&#39;flag_own_car&#39;</span>].<span class="bu">map</span>({<span class="st">&#39;Y&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;N&#39;</span>: <span class="dv">0</span>})</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>X_train[<span class="st">&#39;flag_own_realty&#39;</span>] <span class="op">=</span> X_train[<span class="st">&#39;flag_own_realty&#39;</span>].<span class="bu">map</span>({<span class="st">&#39;Y&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;N&#39;</span>: <span class="dv">0</span>})</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>X_train[<span class="st">&#39;emergencystate_mode&#39;</span>] <span class="op">=</span> X_train[<span class="st">&#39;emergencystate_mode&#39;</span>].<span class="bu">map</span>({<span class="st">&#39;Yes&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;No&#39;</span>: <span class="dv">0</span>})</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> pd.get_dummies(X_train, columns<span class="op">=</span>[<span class="st">&#39;name_contract_type&#39;</span>, <span class="st">&#39;code_gender&#39;</span>,</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>                                           <span class="st">&#39;name_education_type&#39;</span>, <span class="st">&#39;housetype_mode&#39;</span>,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>                                           <span class="st">&#39;fondkapremont_mode&#39;</span>, <span class="st">&#39;organization_type&#39;</span>])</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>target_encoder <span class="op">=</span> TargetEncoder(cols<span class="op">=</span>[<span class="st">&#39;name_type_suite&#39;</span>, <span class="st">&#39;name_income_type&#39;</span>,</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>                                     <span class="st">&#39;occupation_type&#39;</span>, <span class="st">&#39;wallsmaterial_mode&#39;</span>,</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>                                     <span class="st">&#39;name_family_status&#39;</span>, <span class="st">&#39;name_housing_type&#39;</span>,</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>                                     <span class="st">&#39;weekday_appr_process_start&#39;</span>])</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> target_encoder.fit_transform(X_train, y_train)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="64" id="xqcwlN1GFhu_">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Codifciacion X_test</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>X_test[<span class="st">&#39;flag_own_car&#39;</span>] <span class="op">=</span> X_test[<span class="st">&#39;flag_own_car&#39;</span>].<span class="bu">map</span>({<span class="st">&#39;Y&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;N&#39;</span>: <span class="dv">0</span>})</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>X_test[<span class="st">&#39;flag_own_realty&#39;</span>] <span class="op">=</span> X_test[<span class="st">&#39;flag_own_realty&#39;</span>].<span class="bu">map</span>({<span class="st">&#39;Y&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;N&#39;</span>: <span class="dv">0</span>})</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>X_test[<span class="st">&#39;emergencystate_mode&#39;</span>] <span class="op">=</span> X_test[<span class="st">&#39;emergencystate_mode&#39;</span>].<span class="bu">map</span>({<span class="st">&#39;Yes&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;No&#39;</span>: <span class="dv">0</span>})</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> pd.get_dummies(X_test, columns<span class="op">=</span>[<span class="st">&#39;name_contract_type&#39;</span>, <span class="st">&#39;code_gender&#39;</span>,</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>                                           <span class="st">&#39;name_education_type&#39;</span>, <span class="st">&#39;housetype_mode&#39;</span>,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>                                           <span class="st">&#39;fondkapremont_mode&#39;</span>, <span class="st">&#39;organization_type&#39;</span>])</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> X_test.reindex(columns<span class="op">=</span>X_train.columns, fill_value<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> target_encoder.transform(X_test)</span></code></pre></div>
+</div>
+<section id="escalado-de-variables" class="cell markdown"
+id="VY5QbAwPLsCE">
+<h3><strong>Escalado de variables</strong></h3>
+</section>
+<div class="cell code" data-execution_count="65"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:424}"
+id="UbTEPsAAG3u2" data-outputId="91ba7c85-c641-4016-a00d-04b2a186444d">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>X_train_scaled <span class="op">=</span> pd.DataFrame(scaler.fit_transform(X_train), columns<span class="op">=</span>X_train.columns, index<span class="op">=</span>X_train.index)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>X_test_scaled <span class="op">=</span> pd.DataFrame(scaler.transform(X_test), columns<span class="op">=</span>X_test.columns, index<span class="op">=</span>X_test.index)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>X_train_scaled.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="65">
+
+  <div id="df-7d288727-bcf8-4479-9475-387e74ef65f1" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sk_id_curr</th>
+      <th>flag_own_car</th>
+      <th>flag_own_realty</th>
+      <th>cnt_children</th>
+      <th>amt_income_total</th>
+      <th>amt_credit</th>
+      <th>amt_annuity</th>
+      <th>amt_goods_price</th>
+      <th>name_type_suite</th>
+      <th>name_income_type</th>
+      <th>name_family_status</th>
+      <th>name_housing_type</th>
+      <th>region_population_relative</th>
+      <th>days_birth</th>
+      <th>days_employed</th>
+      <th>days_registration</th>
+      <th>days_id_publish</th>
+      <th>own_car_age</th>
+      <th>flag_mobil</th>
+      <th>flag_emp_phone</th>
+      <th>flag_work_phone</th>
+      <th>flag_cont_mobile</th>
+      <th>flag_phone</th>
+      <th>flag_email</th>
+      <th>occupation_type</th>
+      <th>cnt_fam_members</th>
+      <th>region_rating_client</th>
+      <th>region_rating_client_w_city</th>
+      <th>weekday_appr_process_start</th>
+      <th>hour_appr_process_start</th>
+      <th>reg_region_not_live_region</th>
+      <th>reg_region_not_work_region</th>
+      <th>live_region_not_work_region</th>
+      <th>reg_city_not_live_city</th>
+      <th>reg_city_not_work_city</th>
+      <th>live_city_not_work_city</th>
+      <th>ext_source_1</th>
+      <th>ext_source_2</th>
+      <th>ext_source_3</th>
+      <th>apartments_avg</th>
+      <th>basementarea_avg</th>
+      <th>years_beginexpluatation_avg</th>
+      <th>years_build_avg</th>
+      <th>commonarea_avg</th>
+      <th>elevators_avg</th>
+      <th>entrances_avg</th>
+      <th>floorsmax_avg</th>
+      <th>floorsmin_avg</th>
+      <th>landarea_avg</th>
+      <th>livingapartments_avg</th>
+      <th>livingarea_avg</th>
+      <th>nonlivingapartments_avg</th>
+      <th>nonlivingarea_avg</th>
+      <th>apartments_mode</th>
+      <th>basementarea_mode</th>
+      <th>years_beginexpluatation_mode</th>
+      <th>years_build_mode</th>
+      <th>commonarea_mode</th>
+      <th>elevators_mode</th>
+      <th>entrances_mode</th>
+      <th>floorsmax_mode</th>
+      <th>floorsmin_mode</th>
+      <th>landarea_mode</th>
+      <th>livingapartments_mode</th>
+      <th>livingarea_mode</th>
+      <th>nonlivingapartments_mode</th>
+      <th>nonlivingarea_mode</th>
+      <th>apartments_medi</th>
+      <th>basementarea_medi</th>
+      <th>years_beginexpluatation_medi</th>
+      <th>years_build_medi</th>
+      <th>commonarea_medi</th>
+      <th>elevators_medi</th>
+      <th>entrances_medi</th>
+      <th>floorsmax_medi</th>
+      <th>floorsmin_medi</th>
+      <th>landarea_medi</th>
+      <th>livingapartments_medi</th>
+      <th>livingarea_medi</th>
+      <th>nonlivingapartments_medi</th>
+      <th>nonlivingarea_medi</th>
+      <th>totalarea_mode</th>
+      <th>wallsmaterial_mode</th>
+      <th>emergencystate_mode</th>
+      <th>obs_30_cnt_social_circle</th>
+      <th>def_30_cnt_social_circle</th>
+      <th>obs_60_cnt_social_circle</th>
+      <th>def_60_cnt_social_circle</th>
+      <th>days_last_phone_change</th>
+      <th>flag_document_2</th>
+      <th>flag_document_3</th>
+      <th>flag_document_4</th>
+      <th>flag_document_5</th>
+      <th>flag_document_6</th>
+      <th>flag_document_7</th>
+      <th>flag_document_8</th>
+      <th>flag_document_9</th>
+      <th>flag_document_10</th>
+      <th>flag_document_11</th>
+      <th>flag_document_12</th>
+      <th>flag_document_13</th>
+      <th>flag_document_14</th>
+      <th>flag_document_15</th>
+      <th>flag_document_16</th>
+      <th>flag_document_17</th>
+      <th>flag_document_18</th>
+      <th>flag_document_19</th>
+      <th>flag_document_20</th>
+      <th>flag_document_21</th>
+      <th>amt_req_credit_bureau_hour</th>
+      <th>amt_req_credit_bureau_day</th>
+      <th>amt_req_credit_bureau_week</th>
+      <th>amt_req_credit_bureau_mon</th>
+      <th>amt_req_credit_bureau_qrt</th>
+      <th>amt_req_credit_bureau_year</th>
+      <th>name_contract_type_Cash loans</th>
+      <th>name_contract_type_Revolving loans</th>
+      <th>code_gender_F</th>
+      <th>code_gender_M</th>
+      <th>name_education_type_Academic degree</th>
+      <th>name_education_type_Higher education</th>
+      <th>name_education_type_Incomplete higher</th>
+      <th>name_education_type_Lower secondary</th>
+      <th>name_education_type_Secondary / secondary special</th>
+      <th>housetype_mode_No especificado</th>
+      <th>housetype_mode_block of flats</th>
+      <th>housetype_mode_specific housing</th>
+      <th>housetype_mode_terraced house</th>
+      <th>fondkapremont_mode_No especificado</th>
+      <th>fondkapremont_mode_not specified</th>
+      <th>fondkapremont_mode_org spec account</th>
+      <th>fondkapremont_mode_reg oper account</th>
+      <th>fondkapremont_mode_reg oper spec account</th>
+      <th>organization_type_Advertising</th>
+      <th>organization_type_Agriculture</th>
+      <th>organization_type_Bank</th>
+      <th>organization_type_Business Entity Type 1</th>
+      <th>organization_type_Business Entity Type 2</th>
+      <th>organization_type_Business Entity Type 3</th>
+      <th>organization_type_Cleaning</th>
+      <th>organization_type_Construction</th>
+      <th>organization_type_Culture</th>
+      <th>organization_type_Electricity</th>
+      <th>organization_type_Emergency</th>
+      <th>organization_type_Government</th>
+      <th>organization_type_Hotel</th>
+      <th>organization_type_Housing</th>
+      <th>organization_type_Industry: type 1</th>
+      <th>organization_type_Industry: type 10</th>
+      <th>organization_type_Industry: type 11</th>
+      <th>organization_type_Industry: type 12</th>
+      <th>organization_type_Industry: type 13</th>
+      <th>organization_type_Industry: type 2</th>
+      <th>organization_type_Industry: type 3</th>
+      <th>organization_type_Industry: type 4</th>
+      <th>organization_type_Industry: type 5</th>
+      <th>organization_type_Industry: type 6</th>
+      <th>organization_type_Industry: type 7</th>
+      <th>organization_type_Industry: type 8</th>
+      <th>organization_type_Industry: type 9</th>
+      <th>organization_type_Insurance</th>
+      <th>organization_type_Kindergarten</th>
+      <th>organization_type_Legal Services</th>
+      <th>organization_type_Medicine</th>
+      <th>organization_type_Military</th>
+      <th>organization_type_Mobile</th>
+      <th>organization_type_Other</th>
+      <th>organization_type_Police</th>
+      <th>organization_type_Postal</th>
+      <th>organization_type_Realtor</th>
+      <th>organization_type_Religion</th>
+      <th>organization_type_Restaurant</th>
+      <th>organization_type_School</th>
+      <th>organization_type_Security</th>
+      <th>organization_type_Security Ministries</th>
+      <th>organization_type_Self-employed</th>
+      <th>organization_type_Services</th>
+      <th>organization_type_Telecom</th>
+      <th>organization_type_Trade: type 1</th>
+      <th>organization_type_Trade: type 2</th>
+      <th>organization_type_Trade: type 3</th>
+      <th>organization_type_Trade: type 4</th>
+      <th>organization_type_Trade: type 5</th>
+      <th>organization_type_Trade: type 6</th>
+      <th>organization_type_Trade: type 7</th>
+      <th>organization_type_Transport: type 1</th>
+      <th>organization_type_Transport: type 2</th>
+      <th>organization_type_Transport: type 3</th>
+      <th>organization_type_Transport: type 4</th>
+      <th>organization_type_University</th>
+      <th>organization_type_XNA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4631.0</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4631.000000</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>2.498000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4630.0</td>
+      <td>4.630000e+03</td>
+      <td>4630.0</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4630.0</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4630.0</td>
+      <td>4.630000e+03</td>
+      <td>4630.0</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.630000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4631.000000</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4631.000000</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4631.000000</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4631.000000</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+      <td>4.631000e+03</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>3.504383e-15</td>
+      <td>2.454909e-17</td>
+      <td>-6.904432e-17</td>
+      <td>6.137273e-18</td>
+      <td>6.751000e-17</td>
+      <td>1.227455e-16</td>
+      <td>6.137273e-18</td>
+      <td>1.012650e-16</td>
+      <td>-3.077075e-15</td>
+      <td>-5.247368e-16</td>
+      <td>9.804293e-16</td>
+      <td>1.426916e-15</td>
+      <td>3.912511e-17</td>
+      <td>-7.057863e-17</td>
+      <td>8.285318e-17</td>
+      <td>-4.526239e-17</td>
+      <td>3.222068e-17</td>
+      <td>8.285318e-17</td>
+      <td>0.0</td>
+      <td>-1.841182e-16</td>
+      <td>1.380886e-17</td>
+      <td>-1.300335e-15</td>
+      <td>6.981148e-17</td>
+      <td>-4.372807e-17</td>
+      <td>1.718436e-16</td>
+      <td>-1.027993e-16</td>
+      <td>1.495960e-16</td>
+      <td>-2.715743e-16</td>
+      <td>1.020322e-15</td>
+      <td>-1.484453e-16</td>
+      <td>3.068636e-18</td>
+      <td>-6.444136e-17</td>
+      <td>-1.227455e-17</td>
+      <td>-2.953562e-17</td>
+      <td>-3.912511e-17</td>
+      <td>-4.602954e-18</td>
+      <td>4.326777e-16</td>
+      <td>5.830409e-16</td>
+      <td>1.166082e-16</td>
+      <td>5.830409e-17</td>
+      <td>-3.007264e-16</td>
+      <td>3.199053e-15</td>
+      <td>-6.628254e-16</td>
+      <td>-3.068636e-18</td>
+      <td>3.835795e-17</td>
+      <td>7.364727e-17</td>
+      <td>-2.842324e-16</td>
+      <td>1.994614e-16</td>
+      <td>-9.359341e-17</td>
+      <td>8.745613e-17</td>
+      <td>-1.841182e-17</td>
+      <td>7.671591e-18</td>
+      <td>0.000000</td>
+      <td>3.222068e-17</td>
+      <td>1.595691e-16</td>
+      <td>-1.181425e-16</td>
+      <td>-7.295683e-16</td>
+      <td>5.101608e-17</td>
+      <td>9.359341e-17</td>
+      <td>7.057863e-17</td>
+      <td>-7.096221e-17</td>
+      <td>2.098180e-16</td>
+      <td>9.205909e-17</td>
+      <td>-8.899045e-17</td>
+      <td>3.375500e-17</td>
+      <td>-1.687750e-17</td>
+      <td>3.068636e-17</td>
+      <td>3.375500e-17</td>
+      <td>1.749123e-16</td>
+      <td>5.646291e-16</td>
+      <td>4.491716e-16</td>
+      <td>-3.452216e-17</td>
+      <td>-9.359341e-17</td>
+      <td>1.411573e-16</td>
+      <td>-3.394679e-16</td>
+      <td>1.841182e-16</td>
+      <td>6.597568e-17</td>
+      <td>-2.470252e-16</td>
+      <td>-3.682364e-17</td>
+      <td>4.602954e-18</td>
+      <td>-3.222068e-17</td>
+      <td>-7.978454e-17</td>
+      <td>1.448205e-15</td>
+      <td>-4.266670e-17</td>
+      <td>-1.534318e-18</td>
+      <td>3.528932e-17</td>
+      <td>4.296091e-17</td>
+      <td>1.534318e-17</td>
+      <td>5.753693e-17</td>
+      <td>0.0</td>
+      <td>1.457917e-17</td>
+      <td>0.0</td>
+      <td>-2.148509e-17</td>
+      <td>3.529694e-17</td>
+      <td>0.0</td>
+      <td>1.304452e-17</td>
+      <td>1.534650e-18</td>
+      <td>0.0</td>
+      <td>2.148509e-17</td>
+      <td>0.0</td>
+      <td>9.207897e-18</td>
+      <td>7.673248e-19</td>
+      <td>-6.905923e-18</td>
+      <td>-2.148509e-17</td>
+      <td>4.603949e-18</td>
+      <td>-1.150987e-17</td>
+      <td>3.069299e-18</td>
+      <td>-1.534650e-18</td>
+      <td>-1.534650e-18</td>
+      <td>1.457602e-17</td>
+      <td>5.753693e-18</td>
+      <td>3.528932e-17</td>
+      <td>-4.756386e-17</td>
+      <td>1.841182e-17</td>
+      <td>2.301477e-18</td>
+      <td>1.043336e-16</td>
+      <td>-3.835795e-18</td>
+      <td>-9.512773e-17</td>
+      <td>2.454909e-17</td>
+      <td>6.137273e-18</td>
+      <td>-5.983841e-17</td>
+      <td>3.375500e-17</td>
+      <td>-4.449523e-17</td>
+      <td>-6.520852e-17</td>
+      <td>-3.682364e-17</td>
+      <td>1.258141e-16</td>
+      <td>6.137273e-18</td>
+      <td>0.000000</td>
+      <td>1.196768e-16</td>
+      <td>7.671591e-18</td>
+      <td>7.671591e-18</td>
+      <td>4.756386e-17</td>
+      <td>-4.602954e-17</td>
+      <td>-1.304170e-17</td>
+      <td>2.454909e-17</td>
+      <td>-4.487881e-17</td>
+      <td>9.973068e-18</td>
+      <td>5.063250e-17</td>
+      <td>4.986534e-18</td>
+      <td>6.137273e-18</td>
+      <td>-1.841182e-17</td>
+      <td>1.534318e-18</td>
+      <td>1.074023e-17</td>
+      <td>-7.671591e-18</td>
+      <td>5.370114e-18</td>
+      <td>-1.074023e-17</td>
+      <td>2.148045e-17</td>
+      <td>-3.989227e-17</td>
+      <td>1.534318e-18</td>
+      <td>0.000000</td>
+      <td>1.534318e-18</td>
+      <td>-6.137273e-18</td>
+      <td>-3.068636e-18</td>
+      <td>-2.569983e-17</td>
+      <td>-1.534318e-18</td>
+      <td>-1.227455e-17</td>
+      <td>1.534318e-18</td>
+      <td>-2.224761e-17</td>
+      <td>4.602954e-18</td>
+      <td>1.227455e-17</td>
+      <td>1.534318e-18</td>
+      <td>1.534318e-17</td>
+      <td>6.137273e-18</td>
+      <td>3.068636e-18</td>
+      <td>1.687750e-17</td>
+      <td>-1.150739e-17</td>
+      <td>-8.553824e-17</td>
+      <td>1.534318e-18</td>
+      <td>3.835795e-18</td>
+      <td>-1.150739e-17</td>
+      <td>0.000000</td>
+      <td>1.534318e-18</td>
+      <td>5.216682e-17</td>
+      <td>-1.764466e-17</td>
+      <td>-4.602954e-18</td>
+      <td>2.608341e-17</td>
+      <td>-9.205909e-18</td>
+      <td>7.671591e-18</td>
+      <td>-3.068636e-18</td>
+      <td>-1.265812e-17</td>
+      <td>1.534318e-18</td>
+      <td>3.068636e-18</td>
+      <td>0.000000</td>
+      <td>2.301477e-18</td>
+      <td>6.137273e-18</td>
+      <td>1.534318e-18</td>
+      <td>1.534318e-18</td>
+      <td>2.800131e-17</td>
+      <td>6.635926e-17</td>
+      <td>9.205909e-18</td>
+      <td>-2.454909e-17</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>0.0</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000200e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>0.0</td>
+      <td>1.000108e+00</td>
+      <td>0.0</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>0.0</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>0.0</td>
+      <td>1.000108e+00</td>
+      <td>0.0</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+      <td>1.000108e+00</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>-1.738959e+00</td>
+      <td>-7.220481e-01</td>
+      <td>-1.522280e+00</td>
+      <td>-5.781208e-01</td>
+      <td>-1.523063e+00</td>
+      <td>-1.371685e+00</td>
+      <td>-1.693108e+00</td>
+      <td>-1.329799e+00</td>
+      <td>-9.672128e+00</td>
+      <td>-2.433143e+00</td>
+      <td>-6.631449e-01</td>
+      <td>-8.978983e-01</td>
+      <td>-1.425730e+00</td>
+      <td>-2.106324e+00</td>
+      <td>-5.646632e-01</td>
+      <td>-4.515235e+00</td>
+      <td>-2.132484e+00</td>
+      <td>-1.398666e+00</td>
+      <td>0.0</td>
+      <td>-2.121320e+00</td>
+      <td>-4.985825e-01</td>
+      <td>-2.403903e+01</td>
+      <td>-6.293974e-01</td>
+      <td>-2.458727e-01</td>
+      <td>-1.677396e+00</td>
+      <td>-1.271376e+00</td>
+      <td>-2.058121e+00</td>
+      <td>-2.034444e+00</td>
+      <td>-1.417269e+00</td>
+      <td>-3.440556e+00</td>
+      <td>-1.367397e-01</td>
+      <td>-2.249218e-01</td>
+      <td>-1.928161e-01</td>
+      <td>-3.028234e-01</td>
+      <td>-5.541520e-01</td>
+      <td>-4.648913e-01</td>
+      <td>-3.365333e+00</td>
+      <td>-2.714172e+00</td>
+      <td>-2.893699e+00</td>
+      <td>-1.306220e+00</td>
+      <td>-1.554099e+00</td>
+      <td>-2.997934e+01</td>
+      <td>-1.108598e+01</td>
+      <td>-5.885539e-01</td>
+      <td>-3.626933e-01</td>
+      <td>-2.018949e+00</td>
+      <td>-1.776576e+00</td>
+      <td>-2.310376e+00</td>
+      <td>-9.901912e-01</td>
+      <td>-1.579622e+00</td>
+      <td>-1.111698e+00</td>
+      <td>-1.025198e-01</td>
+      <td>-0.317981</td>
+      <td>-1.305513e+00</td>
+      <td>-1.489101e+00</td>
+      <td>-2.243930e+01</td>
+      <td>-1.146508e+01</td>
+      <td>-5.618730e-01</td>
+      <td>-3.529326e-01</td>
+      <td>-1.979743e+00</td>
+      <td>-1.787807e+00</td>
+      <td>-2.318354e+00</td>
+      <td>-9.406827e-01</td>
+      <td>-1.528231e+00</td>
+      <td>-1.089574e+00</td>
+      <td>-9.563639e-02</td>
+      <td>-2.721657e-01</td>
+      <td>-1.297295e+00</td>
+      <td>-1.552913e+00</td>
+      <td>-3.065434e+01</td>
+      <td>-1.125182e+01</td>
+      <td>-5.837948e-01</td>
+      <td>-3.607462e-01</td>
+      <td>-2.012862e+00</td>
+      <td>-1.773077e+00</td>
+      <td>-2.306717e+00</td>
+      <td>-9.901209e-01</td>
+      <td>-1.574058e+00</td>
+      <td>-1.102730e+00</td>
+      <td>-1.013308e-01</td>
+      <td>-3.087801e-01</td>
+      <td>-1.065430e+00</td>
+      <td>-1.663009e+00</td>
+      <td>-1.291782e-01</td>
+      <td>-6.173827e-01</td>
+      <td>-3.194924e-01</td>
+      <td>-6.170143e-01</td>
+      <td>-2.728908e-01</td>
+      <td>-3.260279e+00</td>
+      <td>0.0</td>
+      <td>-1.549810e+00</td>
+      <td>0.0</td>
+      <td>-1.342755e-01</td>
+      <td>-3.049791e-01</td>
+      <td>0.0</td>
+      <td>-2.990180e-01</td>
+      <td>-6.419175e-02</td>
+      <td>0.0</td>
+      <td>-6.750039e-02</td>
+      <td>0.0</td>
+      <td>-3.891232e-02</td>
+      <td>-5.306299e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-9.906873e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-7.800199e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-8.485703e-02</td>
+      <td>-6.790008e-02</td>
+      <td>-1.617570e-01</td>
+      <td>-2.678672e-01</td>
+      <td>-4.135500e-01</td>
+      <td>-9.990067e-01</td>
+      <td>-3.018502e+00</td>
+      <td>-3.312902e-01</td>
+      <td>-1.410557e+00</td>
+      <td>-7.089399e-01</td>
+      <td>-3.287624e-02</td>
+      <td>-5.614725e-01</td>
+      <td>-1.885592e-01</td>
+      <td>-1.126194e-01</td>
+      <td>-1.573762e+00</td>
+      <td>-9.750467e-01</td>
+      <td>-1.008457e+00</td>
+      <td>-6.246612e-02</td>
+      <td>-0.067493</td>
+      <td>-1.422962e+00</td>
+      <td>-1.342607e-01</td>
+      <td>-1.423685e-01</td>
+      <td>-5.807580e-01</td>
+      <td>-2.062726e-01</td>
+      <td>-3.601801e-02</td>
+      <td>-8.974399e-02</td>
+      <td>-9.215764e-02</td>
+      <td>-1.211615e-01</td>
+      <td>-1.804244e-01</td>
+      <td>-5.338175e-01</td>
+      <td>-3.287624e-02</td>
+      <td>-1.375569e-01</td>
+      <td>-2.940223e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-4.879500e-02</td>
+      <td>-1.885592e-01</td>
+      <td>-5.700497e-02</td>
+      <td>-1.183789e-01</td>
+      <td>-5.305725e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-0.105524</td>
+      <td>-4.159901e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-3.890811e-02</td>
+      <td>-1.075970e-01</td>
+      <td>-3.890811e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-6.069958e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-9.681051e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-1.567084e-01</td>
+      <td>-4.412719e-02</td>
+      <td>-1.999326e-01</td>
+      <td>-8.974399e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-2.483324e-01</td>
+      <td>-8.209221e-02</td>
+      <td>-8.471737e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-0.020786</td>
+      <td>-6.749307e-02</td>
+      <td>-1.595776e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-8.074851e-02</td>
+      <td>-3.913278e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-4.412719e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-6.585935e-02</td>
+      <td>-1.086192e-01</td>
+      <td>-1.469635e-02</td>
+      <td>-0.020786</td>
+      <td>-4.159901e-02</td>
+      <td>-1.447189e-01</td>
+      <td>-2.078602e-02</td>
+      <td>-1.034119e-01</td>
+      <td>-6.418479e-02</td>
+      <td>-1.256700e-01</td>
+      <td>-5.506607e-02</td>
+      <td>-4.714045e-01</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>-8.588156e-01</td>
+      <td>-7.220481e-01</td>
+      <td>-1.522280e+00</td>
+      <td>-5.781208e-01</td>
+      <td>-5.885938e-01</td>
+      <td>-8.183090e-01</td>
+      <td>-7.267525e-01</td>
+      <td>-8.125525e-01</td>
+      <td>2.113760e-01</td>
+      <td>-4.351843e-01</td>
+      <td>-4.915898e-01</td>
+      <td>-2.950826e-01</td>
+      <td>-7.767769e-01</td>
+      <td>-8.243416e-01</td>
+      <td>-4.742556e-01</td>
+      <td>-7.085966e-01</td>
+      <td>-8.725188e-01</td>
+      <td>-1.448753e-01</td>
+      <td>0.0</td>
+      <td>4.714045e-01</td>
+      <td>-4.985825e-01</td>
+      <td>4.159901e-02</td>
+      <td>-6.293974e-01</td>
+      <td>-2.458727e-01</td>
+      <td>-8.491403e-01</td>
+      <td>-1.592222e-01</td>
+      <td>-9.738076e-02</td>
+      <td>-5.762692e-02</td>
+      <td>-5.880584e-01</td>
+      <td>-6.408345e-01</td>
+      <td>-1.367397e-01</td>
+      <td>-2.249218e-01</td>
+      <td>-1.928161e-01</td>
+      <td>-3.028234e-01</td>
+      <td>-5.541520e-01</td>
+      <td>-4.648913e-01</td>
+      <td>-1.496387e-01</td>
+      <td>-6.486906e-01</td>
+      <td>-6.226564e-01</td>
+      <td>-2.973803e-01</td>
+      <td>-1.137609e-01</td>
+      <td>5.519372e-03</td>
+      <td>2.995712e-02</td>
+      <td>-1.704890e-01</td>
+      <td>-3.626933e-01</td>
+      <td>-8.165130e-02</td>
+      <td>-2.781140e-01</td>
+      <td>-9.778842e-02</td>
+      <td>-1.745210e-01</td>
+      <td>-1.516517e-01</td>
+      <td>-2.848208e-01</td>
+      <td>-1.025198e-01</td>
+      <td>-0.242024</td>
+      <td>-2.541053e-01</td>
+      <td>-1.195811e-01</td>
+      <td>1.979393e-02</td>
+      <td>5.292155e-02</td>
+      <td>-1.740634e-01</td>
+      <td>-3.529326e-01</td>
+      <td>-4.969119e-02</td>
+      <td>-2.630662e-01</td>
+      <td>-8.164371e-02</td>
+      <td>-1.814754e-01</td>
+      <td>-1.694521e-01</td>
+      <td>-2.650966e-01</td>
+      <td>-9.563639e-02</td>
+      <td>-2.635590e-01</td>
+      <td>-2.926260e-01</td>
+      <td>-1.134857e-01</td>
+      <td>1.055789e-03</td>
+      <td>2.965625e-02</td>
+      <td>-1.723383e-01</td>
+      <td>-3.607462e-01</td>
+      <td>-7.977477e-02</td>
+      <td>-2.760242e-01</td>
+      <td>-9.661504e-02</td>
+      <td>-1.753672e-01</td>
+      <td>-1.490587e-01</td>
+      <td>-2.668647e-01</td>
+      <td>-1.013308e-01</td>
+      <td>-2.554637e-01</td>
+      <td>-2.972218e-01</td>
+      <td>-1.260144e+00</td>
+      <td>-1.291782e-01</td>
+      <td>-6.173827e-01</td>
+      <td>-3.194924e-01</td>
+      <td>-6.170143e-01</td>
+      <td>-2.728908e-01</td>
+      <td>-7.169834e-01</td>
+      <td>0.0</td>
+      <td>-1.549810e+00</td>
+      <td>0.0</td>
+      <td>-1.342755e-01</td>
+      <td>-3.049791e-01</td>
+      <td>0.0</td>
+      <td>-2.990180e-01</td>
+      <td>-6.419175e-02</td>
+      <td>0.0</td>
+      <td>-6.750039e-02</td>
+      <td>0.0</td>
+      <td>-3.891232e-02</td>
+      <td>-5.306299e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-9.906873e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-7.800199e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-8.485703e-02</td>
+      <td>-6.790008e-02</td>
+      <td>-1.617570e-01</td>
+      <td>-2.678672e-01</td>
+      <td>-4.135500e-01</td>
+      <td>-4.303734e-01</td>
+      <td>3.312902e-01</td>
+      <td>-3.312902e-01</td>
+      <td>-1.410557e+00</td>
+      <td>-7.089399e-01</td>
+      <td>-3.287624e-02</td>
+      <td>-5.614725e-01</td>
+      <td>-1.885592e-01</td>
+      <td>-1.126194e-01</td>
+      <td>-1.573762e+00</td>
+      <td>-9.750467e-01</td>
+      <td>-1.008457e+00</td>
+      <td>-6.246612e-02</td>
+      <td>-0.067493</td>
+      <td>-1.422962e+00</td>
+      <td>-1.342607e-01</td>
+      <td>-1.423685e-01</td>
+      <td>-5.807580e-01</td>
+      <td>-2.062726e-01</td>
+      <td>-3.601801e-02</td>
+      <td>-8.974399e-02</td>
+      <td>-9.215764e-02</td>
+      <td>-1.211615e-01</td>
+      <td>-1.804244e-01</td>
+      <td>-5.338175e-01</td>
+      <td>-3.287624e-02</td>
+      <td>-1.375569e-01</td>
+      <td>-2.940223e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-4.879500e-02</td>
+      <td>-1.885592e-01</td>
+      <td>-5.700497e-02</td>
+      <td>-1.183789e-01</td>
+      <td>-5.305725e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-0.105524</td>
+      <td>-4.159901e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-3.890811e-02</td>
+      <td>-1.075970e-01</td>
+      <td>-3.890811e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-6.069958e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-9.681051e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-1.567084e-01</td>
+      <td>-4.412719e-02</td>
+      <td>-1.999326e-01</td>
+      <td>-8.974399e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-2.483324e-01</td>
+      <td>-8.209221e-02</td>
+      <td>-8.471737e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-0.020786</td>
+      <td>-6.749307e-02</td>
+      <td>-1.595776e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-8.074851e-02</td>
+      <td>-3.913278e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-4.412719e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-6.585935e-02</td>
+      <td>-1.086192e-01</td>
+      <td>-1.469635e-02</td>
+      <td>-0.020786</td>
+      <td>-4.159901e-02</td>
+      <td>-1.447189e-01</td>
+      <td>-2.078602e-02</td>
+      <td>-1.034119e-01</td>
+      <td>-6.418479e-02</td>
+      <td>-1.256700e-01</td>
+      <td>-5.506607e-02</td>
+      <td>-4.714045e-01</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>-3.797329e-03</td>
+      <td>-7.220481e-01</td>
+      <td>6.569095e-01</td>
+      <td>-5.781208e-01</td>
+      <td>-2.496672e-01</td>
+      <td>-2.282330e-01</td>
+      <td>-1.463169e-01</td>
+      <td>-2.471901e-01</td>
+      <td>2.113760e-01</td>
+      <td>8.486878e-01</td>
+      <td>-4.915898e-01</td>
+      <td>-2.950826e-01</td>
+      <td>-1.438547e-01</td>
+      <td>4.248754e-02</td>
+      <td>-4.628815e-01</td>
+      <td>1.340124e-01</td>
+      <td>-1.498673e-01</td>
+      <td>-1.448753e-01</td>
+      <td>0.0</td>
+      <td>4.714045e-01</td>
+      <td>-4.985825e-01</td>
+      <td>4.159901e-02</td>
+      <td>-6.293974e-01</td>
+      <td>-2.458727e-01</td>
+      <td>-4.832672e-01</td>
+      <td>-1.592222e-01</td>
+      <td>-9.738076e-02</td>
+      <td>-5.762692e-02</td>
+      <td>-4.793094e-01</td>
+      <td>-1.867421e-02</td>
+      <td>-1.367397e-01</td>
+      <td>-2.249218e-01</td>
+      <td>-1.928161e-01</td>
+      <td>-3.028234e-01</td>
+      <td>-5.541520e-01</td>
+      <td>-4.648913e-01</td>
+      <td>1.143649e-01</td>
+      <td>2.762909e-01</td>
+      <td>1.429106e-01</td>
+      <td>-1.948084e-01</td>
+      <td>-1.137609e-01</td>
+      <td>5.138649e-02</td>
+      <td>2.995712e-02</td>
+      <td>-1.704890e-01</td>
+      <td>-3.626933e-01</td>
+      <td>-8.165130e-02</td>
+      <td>-2.781140e-01</td>
+      <td>-9.778842e-02</td>
+      <td>-1.389798e-01</td>
+      <td>-1.516517e-01</td>
+      <td>-2.028670e-01</td>
+      <td>-1.025198e-01</td>
+      <td>-0.237683</td>
+      <td>-1.847231e-01</td>
+      <td>-1.195811e-01</td>
+      <td>4.843051e-02</td>
+      <td>5.292155e-02</td>
+      <td>-1.740634e-01</td>
+      <td>-3.529326e-01</td>
+      <td>-4.969119e-02</td>
+      <td>-2.630662e-01</td>
+      <td>-8.164371e-02</td>
+      <td>-1.496946e-01</td>
+      <td>-1.694521e-01</td>
+      <td>-2.001192e-01</td>
+      <td>-9.563639e-02</td>
+      <td>-2.420422e-01</td>
+      <td>-1.987196e-01</td>
+      <td>-1.134857e-01</td>
+      <td>4.794861e-02</td>
+      <td>2.965625e-02</td>
+      <td>-1.723383e-01</td>
+      <td>-3.607462e-01</td>
+      <td>-7.977477e-02</td>
+      <td>-2.760242e-01</td>
+      <td>-9.661504e-02</td>
+      <td>-1.385719e-01</td>
+      <td>-1.490587e-01</td>
+      <td>-2.086601e-01</td>
+      <td>-1.013308e-01</td>
+      <td>-2.384025e-01</td>
+      <td>-2.228992e-01</td>
+      <td>7.687890e-01</td>
+      <td>-1.291782e-01</td>
+      <td>-6.173827e-01</td>
+      <td>-3.194924e-01</td>
+      <td>-6.170143e-01</td>
+      <td>-2.728908e-01</td>
+      <td>2.529895e-01</td>
+      <td>0.0</td>
+      <td>6.452405e-01</td>
+      <td>0.0</td>
+      <td>-1.342755e-01</td>
+      <td>-3.049791e-01</td>
+      <td>0.0</td>
+      <td>-2.990180e-01</td>
+      <td>-6.419175e-02</td>
+      <td>0.0</td>
+      <td>-6.750039e-02</td>
+      <td>0.0</td>
+      <td>-3.891232e-02</td>
+      <td>-5.306299e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-9.906873e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-7.800199e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-8.485703e-02</td>
+      <td>-6.790008e-02</td>
+      <td>-1.617570e-01</td>
+      <td>-2.678672e-01</td>
+      <td>-4.135500e-01</td>
+      <td>-4.303734e-01</td>
+      <td>3.312902e-01</td>
+      <td>-3.312902e-01</td>
+      <td>7.089399e-01</td>
+      <td>-7.089399e-01</td>
+      <td>-3.287624e-02</td>
+      <td>-5.614725e-01</td>
+      <td>-1.885592e-01</td>
+      <td>-1.126194e-01</td>
+      <td>6.354201e-01</td>
+      <td>-9.750467e-01</td>
+      <td>9.916137e-01</td>
+      <td>-6.246612e-02</td>
+      <td>-0.067493</td>
+      <td>7.027595e-01</td>
+      <td>-1.342607e-01</td>
+      <td>-1.423685e-01</td>
+      <td>-5.807580e-01</td>
+      <td>-2.062726e-01</td>
+      <td>-3.601801e-02</td>
+      <td>-8.974399e-02</td>
+      <td>-9.215764e-02</td>
+      <td>-1.211615e-01</td>
+      <td>-1.804244e-01</td>
+      <td>-5.338175e-01</td>
+      <td>-3.287624e-02</td>
+      <td>-1.375569e-01</td>
+      <td>-2.940223e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-4.879500e-02</td>
+      <td>-1.885592e-01</td>
+      <td>-5.700497e-02</td>
+      <td>-1.183789e-01</td>
+      <td>-5.305725e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-0.105524</td>
+      <td>-4.159901e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-3.890811e-02</td>
+      <td>-1.075970e-01</td>
+      <td>-3.890811e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-6.069958e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-9.681051e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-1.567084e-01</td>
+      <td>-4.412719e-02</td>
+      <td>-1.999326e-01</td>
+      <td>-8.974399e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-2.483324e-01</td>
+      <td>-8.209221e-02</td>
+      <td>-8.471737e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-0.020786</td>
+      <td>-6.749307e-02</td>
+      <td>-1.595776e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-8.074851e-02</td>
+      <td>-3.913278e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-4.412719e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-6.585935e-02</td>
+      <td>-1.086192e-01</td>
+      <td>-1.469635e-02</td>
+      <td>-0.020786</td>
+      <td>-4.159901e-02</td>
+      <td>-1.447189e-01</td>
+      <td>-2.078602e-02</td>
+      <td>-1.034119e-01</td>
+      <td>-6.418479e-02</td>
+      <td>-1.256700e-01</td>
+      <td>-5.506607e-02</td>
+      <td>-4.714045e-01</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>8.658344e-01</td>
+      <td>1.384949e+00</td>
+      <td>6.569095e-01</td>
+      <td>8.361832e-01</td>
+      <td>3.797679e-01</td>
+      <td>5.081335e-01</td>
+      <td>5.215732e-01</td>
+      <td>3.662883e-01</td>
+      <td>2.113760e-01</td>
+      <td>8.486878e-01</td>
+      <td>-4.700681e-03</td>
+      <td>-2.950826e-01</td>
+      <td>5.584141e-01</td>
+      <td>8.286438e-01</td>
+      <td>-4.564893e-01</td>
+      <td>8.420469e-01</td>
+      <td>8.657156e-01</td>
+      <td>-1.448753e-01</td>
+      <td>0.0</td>
+      <td>4.714045e-01</td>
+      <td>-4.985825e-01</td>
+      <td>4.159901e-02</td>
+      <td>1.588821e+00</td>
+      <td>-2.458727e-01</td>
+      <td>8.751555e-01</td>
+      <td>9.529314e-01</td>
+      <td>-9.738076e-02</td>
+      <td>-5.762692e-02</td>
+      <td>6.772103e-01</td>
+      <td>6.034861e-01</td>
+      <td>-1.367397e-01</td>
+      <td>-2.249218e-01</td>
+      <td>-1.928161e-01</td>
+      <td>-3.028234e-01</td>
+      <td>-5.541520e-01</td>
+      <td>-4.648913e-01</td>
+      <td>1.143649e-01</td>
+      <td>7.918628e-01</td>
+      <td>7.117503e-01</td>
+      <td>-1.948084e-01</td>
+      <td>-8.024235e-02</td>
+      <td>5.138649e-02</td>
+      <td>2.995712e-02</td>
+      <td>-1.704890e-01</td>
+      <td>-3.626933e-01</td>
+      <td>-8.165130e-02</td>
+      <td>-2.781140e-01</td>
+      <td>-9.778842e-02</td>
+      <td>-1.389798e-01</td>
+      <td>-1.516517e-01</td>
+      <td>-1.900235e-01</td>
+      <td>-1.025198e-01</td>
+      <td>-0.237683</td>
+      <td>-1.847231e-01</td>
+      <td>-5.690497e-02</td>
+      <td>5.988514e-02</td>
+      <td>5.292155e-02</td>
+      <td>-1.740634e-01</td>
+      <td>-3.529326e-01</td>
+      <td>-4.969119e-02</td>
+      <td>-2.630662e-01</td>
+      <td>-8.164371e-02</td>
+      <td>-1.496946e-01</td>
+      <td>-1.694521e-01</td>
+      <td>-1.927633e-01</td>
+      <td>-9.563639e-02</td>
+      <td>-2.420422e-01</td>
+      <td>-1.987196e-01</td>
+      <td>-7.408884e-02</td>
+      <td>4.794861e-02</td>
+      <td>2.965625e-02</td>
+      <td>-1.723383e-01</td>
+      <td>-3.607462e-01</td>
+      <td>-7.977477e-02</td>
+      <td>-2.760242e-01</td>
+      <td>-9.661504e-02</td>
+      <td>-1.385719e-01</td>
+      <td>-1.490587e-01</td>
+      <td>-1.906587e-01</td>
+      <td>-1.013308e-01</td>
+      <td>-2.384025e-01</td>
+      <td>-1.960431e-01</td>
+      <td>7.687890e-01</td>
+      <td>-1.291782e-01</td>
+      <td>2.814225e-01</td>
+      <td>-3.194924e-01</td>
+      <td>2.905268e-01</td>
+      <td>-2.728908e-01</td>
+      <td>8.417715e-01</td>
+      <td>0.0</td>
+      <td>6.452405e-01</td>
+      <td>0.0</td>
+      <td>-1.342755e-01</td>
+      <td>-3.049791e-01</td>
+      <td>0.0</td>
+      <td>-2.990180e-01</td>
+      <td>-6.419175e-02</td>
+      <td>0.0</td>
+      <td>-6.750039e-02</td>
+      <td>0.0</td>
+      <td>-3.891232e-02</td>
+      <td>-5.306299e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-9.906873e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-7.800199e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-2.546308e-02</td>
+      <td>-2.078827e-02</td>
+      <td>-8.485703e-02</td>
+      <td>-6.790008e-02</td>
+      <td>-1.617570e-01</td>
+      <td>-2.678672e-01</td>
+      <td>-4.135500e-01</td>
+      <td>7.068930e-01</td>
+      <td>3.312902e-01</td>
+      <td>-3.312902e-01</td>
+      <td>7.089399e-01</td>
+      <td>1.410557e+00</td>
+      <td>-3.287624e-02</td>
+      <td>-5.614725e-01</td>
+      <td>-1.885592e-01</td>
+      <td>-1.126194e-01</td>
+      <td>6.354201e-01</td>
+      <td>1.025592e+00</td>
+      <td>9.916137e-01</td>
+      <td>-6.246612e-02</td>
+      <td>-0.067493</td>
+      <td>7.027595e-01</td>
+      <td>-1.342607e-01</td>
+      <td>-1.423685e-01</td>
+      <td>1.721888e+00</td>
+      <td>-2.062726e-01</td>
+      <td>-3.601801e-02</td>
+      <td>-8.974399e-02</td>
+      <td>-9.215764e-02</td>
+      <td>-1.211615e-01</td>
+      <td>-1.804244e-01</td>
+      <td>-5.338175e-01</td>
+      <td>-3.287624e-02</td>
+      <td>-1.375569e-01</td>
+      <td>-2.940223e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-4.879500e-02</td>
+      <td>-1.885592e-01</td>
+      <td>-5.700497e-02</td>
+      <td>-1.183789e-01</td>
+      <td>-5.305725e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-0.105524</td>
+      <td>-4.159901e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-3.890811e-02</td>
+      <td>-1.075970e-01</td>
+      <td>-3.890811e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-6.069958e-02</td>
+      <td>-1.469635e-02</td>
+      <td>-9.681051e-02</td>
+      <td>-5.097024e-02</td>
+      <td>-1.567084e-01</td>
+      <td>-4.412719e-02</td>
+      <td>-1.999326e-01</td>
+      <td>-8.974399e-02</td>
+      <td>-3.601801e-02</td>
+      <td>-2.483324e-01</td>
+      <td>-8.209221e-02</td>
+      <td>-8.471737e-02</td>
+      <td>-2.546033e-02</td>
+      <td>-0.020786</td>
+      <td>-6.749307e-02</td>
+      <td>-1.595776e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-8.074851e-02</td>
+      <td>-3.913278e-01</td>
+      <td>-9.095856e-02</td>
+      <td>-4.412719e-02</td>
+      <td>-2.940223e-02</td>
+      <td>-6.585935e-02</td>
+      <td>-1.086192e-01</td>
+      <td>-1.469635e-02</td>
+      <td>-0.020786</td>
+      <td>-4.159901e-02</td>
+      <td>-1.447189e-01</td>
+      <td>-2.078602e-02</td>
+      <td>-1.034119e-01</td>
+      <td>-6.418479e-02</td>
+      <td>-1.256700e-01</td>
+      <td>-5.506607e-02</td>
+      <td>-4.714045e-01</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>1.729826e+00</td>
+      <td>1.384949e+00</td>
+      <td>6.569095e-01</td>
+      <td>9.322007e+00</td>
+      <td>1.272638e+01</td>
+      <td>4.708812e+00</td>
+      <td>7.528817e+00</td>
+      <td>4.576434e+00</td>
+      <td>1.194305e+00</td>
+      <td>8.486878e-01</td>
+      <td>2.507759e+00</td>
+      <td>6.254856e+00</td>
+      <td>3.696188e+00</td>
+      <td>1.928477e+00</td>
+      <td>2.121087e+00</td>
+      <td>1.410282e+00</td>
+      <td>1.950185e+00</td>
+      <td>7.656489e+00</td>
+      <td>0.0</td>
+      <td>4.714045e-01</td>
+      <td>2.005686e+00</td>
+      <td>4.159901e-02</td>
+      <td>1.588821e+00</td>
+      <td>4.067145e+00</td>
+      <td>3.553334e+00</td>
+      <td>7.625853e+00</td>
+      <td>1.863360e+00</td>
+      <td>1.919190e+00</td>
+      <td>1.694404e+00</td>
+      <td>3.092127e+00</td>
+      <td>7.313163e+00</td>
+      <td>4.445989e+00</td>
+      <td>5.186289e+00</td>
+      <td>3.302254e+00</td>
+      <td>1.804559e+00</td>
+      <td>2.151040e+00</td>
+      <td>2.950609e+00</td>
+      <td>1.796194e+00</td>
+      <td>2.081450e+00</td>
+      <td>1.167757e+01</td>
+      <td>1.759933e+01</td>
+      <td>5.834450e-01</td>
+      <td>3.633218e+00</td>
+      <td>2.176786e+01</td>
+      <td>9.446893e+00</td>
+      <td>1.202962e+01</td>
+      <td>7.212399e+00</td>
+      <td>8.311744e+00</td>
+      <td>1.678040e+01</td>
+      <td>1.451013e+01</td>
+      <td>1.112022e+01</td>
+      <td>3.754381e+01</td>
+      <td>21.384217</td>
+      <td>1.203723e+01</td>
+      <td>1.722019e+01</td>
+      <td>4.699609e-01</td>
+      <td>3.595067e+00</td>
+      <td>2.252203e+01</td>
+      <td>9.796978e+00</td>
+      <td>1.201628e+01</td>
+      <td>7.358808e+00</td>
+      <td>8.419572e+00</td>
+      <td>1.671530e+01</td>
+      <td>1.510767e+01</td>
+      <td>1.117032e+01</td>
+      <td>3.805380e+01</td>
+      <td>2.124462e+01</td>
+      <td>1.156659e+01</td>
+      <td>1.766507e+01</td>
+      <td>5.919053e-01</td>
+      <td>3.621584e+00</td>
+      <td>2.165710e+01</td>
+      <td>9.435288e+00</td>
+      <td>1.200518e+01</td>
+      <td>7.207443e+00</td>
+      <td>8.303472e+00</td>
+      <td>1.653146e+01</td>
+      <td>1.449887e+01</td>
+      <td>1.089821e+01</td>
+      <td>3.756324e+01</td>
+      <td>2.101778e+01</td>
+      <td>1.142576e+01</td>
+      <td>1.675703e+00</td>
+      <td>7.741242e+00</td>
+      <td>9.269474e+00</td>
+      <td>1.080509e+01</td>
+      <td>9.365938e+00</td>
+      <td>1.305788e+01</td>
+      <td>1.164691e+00</td>
+      <td>0.0</td>
+      <td>6.452405e-01</td>
+      <td>0.0</td>
+      <td>7.447376e+00</td>
+      <td>3.278913e+00</td>
+      <td>0.0</td>
+      <td>3.344280e+00</td>
+      <td>1.557833e+01</td>
+      <td>0.0</td>
+      <td>1.481473e+01</td>
+      <td>0.0</td>
+      <td>2.569880e+01</td>
+      <td>1.884553e+01</td>
+      <td>3.927255e+01</td>
+      <td>1.009400e+01</td>
+      <td>4.810405e+01</td>
+      <td>1.282018e+01</td>
+      <td>4.810405e+01</td>
+      <td>3.927255e+01</td>
+      <td>4.810405e+01</td>
+      <td>2.237074e+01</td>
+      <td>2.918282e+01</td>
+      <td>2.022182e+01</td>
+      <td>1.800827e+01</td>
+      <td>6.481680e+00</td>
+      <td>6.393225e+00</td>
+      <td>3.312902e-01</td>
+      <td>3.018502e+00</td>
+      <td>7.089399e-01</td>
+      <td>1.410557e+00</td>
+      <td>3.041710e+01</td>
+      <td>1.781031e+00</td>
+      <td>5.303375e+00</td>
+      <td>8.879461e+00</td>
+      <td>6.354201e-01</td>
+      <td>1.025592e+00</td>
+      <td>9.916137e-01</td>
+      <td>1.600868e+01</td>
+      <td>14.816336</td>
+      <td>7.027595e-01</td>
+      <td>7.448195e+00</td>
+      <td>7.024027e+00</td>
+      <td>1.721888e+00</td>
+      <td>4.847953e+00</td>
+      <td>2.776389e+01</td>
+      <td>1.114281e+01</td>
+      <td>1.085097e+01</td>
+      <td>8.253448e+00</td>
+      <td>5.542488e+00</td>
+      <td>1.873299e+00</td>
+      <td>3.041710e+01</td>
+      <td>7.269721e+00</td>
+      <td>3.401103e+01</td>
+      <td>1.961929e+01</td>
+      <td>2.049390e+01</td>
+      <td>5.303375e+00</td>
+      <td>1.754233e+01</td>
+      <td>8.447448e+00</td>
+      <td>1.884757e+01</td>
+      <td>3.401103e+01</td>
+      <td>9.476493</td>
+      <td>2.403903e+01</td>
+      <td>3.927680e+01</td>
+      <td>2.570158e+01</td>
+      <td>9.293942e+00</td>
+      <td>2.570158e+01</td>
+      <td>2.776389e+01</td>
+      <td>6.804410e+01</td>
+      <td>1.647458e+01</td>
+      <td>6.804410e+01</td>
+      <td>1.032946e+01</td>
+      <td>1.961929e+01</td>
+      <td>6.381279e+00</td>
+      <td>2.266176e+01</td>
+      <td>5.001685e+00</td>
+      <td>1.114281e+01</td>
+      <td>2.776389e+01</td>
+      <td>4.026861e+00</td>
+      <td>1.218142e+01</td>
+      <td>1.180395e+01</td>
+      <td>3.927680e+01</td>
+      <td>48.109251</td>
+      <td>1.481634e+01</td>
+      <td>6.266543e+00</td>
+      <td>1.099402e+01</td>
+      <td>1.238413e+01</td>
+      <td>2.555402e+00</td>
+      <td>1.099402e+01</td>
+      <td>2.266176e+01</td>
+      <td>3.401103e+01</td>
+      <td>1.518387e+01</td>
+      <td>9.206479e+00</td>
+      <td>6.804410e+01</td>
+      <td>48.109251</td>
+      <td>2.403903e+01</td>
+      <td>6.909947e+00</td>
+      <td>4.810925e+01</td>
+      <td>9.670067e+00</td>
+      <td>1.558001e+01</td>
+      <td>7.957352e+00</td>
+      <td>1.816000e+01</td>
+      <td>2.121320e+00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-7d288727-bcf8-4479-9475-387e74ef65f1')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-7d288727-bcf8-4479-9475-387e74ef65f1 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-7d288727-bcf8-4479-9475-387e74ef65f1');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-23867e2c-2359-4499-8365-7aa0b05b92d3">
+  <button class="colab-df-quickchart" onclick="quickchart('df-23867e2c-2359-4499-8365-7aa0b05b92d3')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-23867e2c-2359-4499-8365-7aa0b05b92d3 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
